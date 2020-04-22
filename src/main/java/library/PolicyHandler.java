@@ -10,6 +10,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PolicyHandler{
-    
 
+    @StreamListener(KafkaProcessor.INPUT) //관리자가 도서 신규 등록 시
+    public void wheneverRegistered_ChangeStatus(@Payload Registered registered){
+
+
+    }
 }

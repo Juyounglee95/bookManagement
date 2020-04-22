@@ -15,7 +15,7 @@ public class BookManageSystem {
 
     @PostPersist
     public void onPostPersist(){
-        Registered registered = new Registered();
+        Registered registered = new Registered(this);
         BeanUtils.copyProperties(this, registered);
         registered.publish();
 

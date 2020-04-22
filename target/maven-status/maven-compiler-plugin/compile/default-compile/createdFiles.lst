@@ -1,0 +1,8 @@
+library\config\kafka\KafkaProcessor.class
+library\Registered.class
+library\AbstractEvent.class
+library\Application.class
+library\BookManageSystemController.class
+library\PolicyHandler.class
+library\BookManageSystem.class
+library\BookManageSystemRepository.class

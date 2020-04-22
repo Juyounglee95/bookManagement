@@ -9,6 +9,12 @@ public class Registered extends AbstractEvent {
         super();
     }
 
+    public Registered(BookManageSystem bookManageSystem){
+        this();
+        this.setId(bookManageSystem.getId());
+        this.setBookName(bookManageSystem.getBookName());
+    }
+
     public Long getId() {
         return id;
     }
